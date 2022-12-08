@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { PrimaryNav, MenuLink, Menu } from "./navElement";
 
 import App from "./App";
 import "./index.css";
