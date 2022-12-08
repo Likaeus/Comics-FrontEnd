@@ -1,13 +1,13 @@
 import axios from "axios";
 
-const ApiUrl = "http://localhost:8000/comics";
+const ApiUrl = "http://localhost:8000/comic/";
 
-const ComicList = () => {
+const comic = () => {
   return axios.get(`${ApiUrl}`);
 };
 
 const out = {
-  GetComics: ComicList,
+  GetComic: comic,
 };
 
 export default out;
